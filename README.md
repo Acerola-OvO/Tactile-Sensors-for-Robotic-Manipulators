@@ -114,26 +114,22 @@ python software/tactile_visualizer.py --simulate
 
 The simulation mode generates a moving synthetic contact pattern, making it possible to verify the software environment without the sensor.
 
-## Fabrication
-
-The sensor was fabricated through the following six steps.
-
 <table>
   <tr>
     <td align="center">
-      <img src="assets/fabrication/01_velostat_layer.jpg"
+      <img src="assets/01_velostat_layer.jpg"
            alt="Velostat layer"
            width="240"><br>
       <strong>Step 1.</strong> Cut the Velostat sensing layer.
     </td>
     <td align="center">
-      <img src="assets/fabrication/02_polyimide_base.jpg"
+      <img src="assets/02_polyimide_base.jpg"
            alt="Polyimide base"
            width="240"><br>
       <strong>Step 2.</strong> Prepare the polyimide base and electrode interfaces.
     </td>
     <td align="center">
-      <img src="assets/fabrication/03_adhesive_layer.jpg"
+      <img src="assets/03_adhesive_layer.jpg"
            alt="Adhesive layer"
            width="240"><br>
       <strong>Step 3.</strong> Apply the adhesive layer for structural fixation.
@@ -141,28 +137,25 @@ The sensor was fabricated through the following six steps.
   </tr>
   <tr>
     <td align="center">
-      <img src="assets/fabrication/04_electrode_alignment.jpg"
+      <img src="assets/04_electrode_alignment.jpg"
            alt="Electrode alignment"
            width="240"><br>
       <strong>Step 4.</strong> Align the orthogonal electrode array.
     </td>
     <td align="center">
-      <img src="assets/fabrication/05_assembled_sensor.jpg"
+      <img src="assets/05_assembled_sensor.jpg"
            alt="Assembled sensor"
            width="240"><br>
       <strong>Step 5.</strong> Laminate and assemble the 16×16 sensor.
     </td>
     <td align="center">
-      <img src="assets/fabrication/06_sensor_readout_board.jpg"
+      <img src="assets/06_sensor_readout_board.jpg"
            alt="Sensor and readout board"
            width="240"><br>
       <strong>Step 6.</strong> Connect the finished sensor to the readout board.
     </td>
   </tr>
 </table>
-
-A summarized manufacturing procedure is available in [docs/fabrication.md](docs/fabrication.md).
-
 ## Experimental examples
 
 <table align="center">
