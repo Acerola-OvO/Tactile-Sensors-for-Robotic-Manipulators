@@ -116,7 +116,25 @@ The simulation mode generates a moving synthetic contact pattern, making it poss
 
 ## Fabrication
 
-![Fabrication steps](assets/fabrication_overview.jpg)
+<p align="center">
+  <img src="assets/velostat_layer.jpg"
+       alt="Velostat sensing layer"
+       width="29%">
+  <img src="assets/assembled_sensor.jpg"
+       alt="Assembled tactile sensor"
+       width="29%">
+  <img src="assets/sensor_and_readout_board.jpg"
+       alt="Sensor and readout board"
+       width="29%">
+</p>
+
+<p align="center">
+  <em>
+    Left: Velostat sensing layer. &nbsp;&nbsp;
+    Center: Assembled 16×16 tactile sensor. &nbsp;&nbsp;
+    Right: Sensor prototype with Arduino-based readout board.
+  </em>
+</p>
 
 A summarized manufacturing procedure is available in [docs/fabrication.md](docs/fabrication.md).
 
