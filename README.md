@@ -166,7 +166,6 @@ The sensor was fabricated through the following six steps.
 A summarized manufacturing procedure is available in [docs/fabrication.md](docs/fabrication.md).
 
 ## Experimental examples
-## Experimental examples
 
 <table align="center">
   <tr>
