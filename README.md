@@ -147,7 +147,7 @@ The last two values are observations under the reported prototype setup, not sta
 
 The sensor was fabricated through the following six steps.
 
-<table>
+<table align="center">
   <tr>
     <td align="center">
       <img src="assets/01_velostat_layer.jpg"
@@ -224,8 +224,6 @@ Keep the sensor unloaded during the initial baseline collection.
 ```bash
 python software/tactile_visualizer.py --simulate
 ```
-
-The simulation mode generates a moving synthetic contact pattern, making it possible to verify the software environment without the sensor.
 
 The simulation mode generates a moving synthetic contact pattern, making it possible to verify the software environment without the sensor.
 
