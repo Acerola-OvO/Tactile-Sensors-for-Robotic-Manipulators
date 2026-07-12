@@ -50,6 +50,27 @@ transmits the sampled data to the host computer. The host-side Python program
 performs baseline subtraction, thresholding, temporal filtering, and real-time
 heatmap visualization.
 
+## Circuit schematic
+
+<p align="center">
+  <img src="assets/sensor_reading_board_schematic.png"
+       alt="Circuit schematic of the tactile sensor readout board"
+       width="850">
+</p>
+
+<p align="center">
+  <em>
+    Figure 3. Circuit schematic of the Arduino-based tactile sensor readout board.
+  </em>
+</p>
+
+The readout circuit consists of an Arduino Nano, one CD74HC4067 analog
+multiplexer, and two cascaded SN74HC595 shift registers. The multiplexer selects
+one sensor row, while the shift registers control the column-scanning sequence.
+The selected taxel voltage is sampled through the Arduino analog input.
+
+The complete schematic is available as a PDF:
+[Sensor reading board schematic](hardware/schematics/reading_board_circuit.pdf).
 
 ## Prototype specifications
 
