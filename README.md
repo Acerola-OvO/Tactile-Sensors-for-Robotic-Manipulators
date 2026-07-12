@@ -237,15 +237,15 @@ The simulation mode generates a moving synthetic contact pattern, making it poss
   <tr>
     <td align="center">
       <img src="assets/assembled_sensor.jpg" alt="Assembled tactile sensor" width="250"><br>
-      <em>Figure 3. Assembled 16×16 tactile sensor.</em>
+      <em>Figure 4. Assembled 16×16 tactile sensor.</em>
     </td>
     <td align="center">
       <img src="assets/pea_test_1.jpg" alt="Small-object contact experiment" width="250"><br>
-      <em>Figure 4. Contact test with small objects.</em>
+      <em>Figure 5. Contact test with small objects.</em>
     </td>
     <td align="center">
       <img src="assets/pea_heatmap_1.png" alt="Real-time tactile heatmap" width="250"><br>
-      <em>Figure 5. Real-time tactile heatmap.</em>
+      <em>Figure 6. Real-time tactile heatmap.</em>
     </td>
   </tr>
 </table>
