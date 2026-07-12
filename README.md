@@ -116,25 +116,50 @@ The simulation mode generates a moving synthetic contact pattern, making it poss
 
 ## Fabrication
 
-<p align="center">
-  <img src="assets/velostat_layer.jpg"
-       alt="Velostat sensing layer"
-       width="29%">
-  <img src="assets/assembled_sensor.jpg"
-       alt="Assembled tactile sensor"
-       width="29%">
-  <img src="assets/sensor_and_readout_board.jpg"
-       alt="Sensor and readout board"
-       width="29%">
-</p>
+The sensor was fabricated through the following six steps.
 
-<p align="center">
-  <em>
-    Left: Velostat sensing layer. &nbsp;&nbsp;
-    Center: Assembled 16×16 tactile sensor. &nbsp;&nbsp;
-    Right: Sensor prototype with Arduino-based readout board.
-  </em>
-</p>
+<table>
+  <tr>
+    <td align="center">
+      <img src="assets/fabrication/01_velostat_layer.jpg"
+           alt="Velostat layer"
+           width="240"><br>
+      <strong>Step 1.</strong> Cut the Velostat sensing layer.
+    </td>
+    <td align="center">
+      <img src="assets/fabrication/02_polyimide_base.jpg"
+           alt="Polyimide base"
+           width="240"><br>
+      <strong>Step 2.</strong> Prepare the polyimide base and electrode interfaces.
+    </td>
+    <td align="center">
+      <img src="assets/fabrication/03_adhesive_layer.jpg"
+           alt="Adhesive layer"
+           width="240"><br>
+      <strong>Step 3.</strong> Apply the adhesive layer for structural fixation.
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="assets/fabrication/04_electrode_alignment.jpg"
+           alt="Electrode alignment"
+           width="240"><br>
+      <strong>Step 4.</strong> Align the orthogonal electrode array.
+    </td>
+    <td align="center">
+      <img src="assets/fabrication/05_assembled_sensor.jpg"
+           alt="Assembled sensor"
+           width="240"><br>
+      <strong>Step 5.</strong> Laminate and assemble the 16×16 sensor.
+    </td>
+    <td align="center">
+      <img src="assets/fabrication/06_sensor_readout_board.jpg"
+           alt="Sensor and readout board"
+           width="240"><br>
+      <strong>Step 6.</strong> Connect the finished sensor to the readout board.
+    </td>
+  </tr>
+</table>
 
 A summarized manufacturing procedure is available in [docs/fabrication.md](docs/fabrication.md).
 
