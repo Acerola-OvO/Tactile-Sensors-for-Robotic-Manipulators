@@ -31,19 +31,25 @@ See [Attribution and scope of contribution](docs/attribution.md) for the distinc
 
 ## System architecture
 
-```mermaid
-flowchart LR
-    A[16×16 Velostat sensor] --> B[Two SN74HC595 column drivers]
-    A --> C[CD74HC4067 row multiplexer]
-    B --> D[Selected taxel voltage]
-    C --> D
-    D --> E[Arduino Nano A0]
-    E -->|2,000,000 baud| F[Python serial parser]
-    F --> G[Median baseline subtraction]
-    G --> H[Threshold + clipping]
-    H --> I[EMA / optional Gaussian smoothing]
-    I --> J[OpenCV tactile heatmap]
-```
+<p align="center">
+  <img src="assets/system_architecture_thesis.png"
+       alt="Tactile sensor system architecture"
+       width="620">
+</p>
+
+<p align="center">
+  <em>
+    Figure 2. System architecture of the tactile sensing platform, including
+    the signal collection, perception, and signal-processing modules.
+  </em>
+</p>
+
+The 16×16 tactile sensor matrix is scanned using two SN74HC595 shift registers
+and a CD74HC4067 multiplexer. An Arduino Nano controls the scanning process and
+transmits the sampled data to the host computer. The host-side Python program
+performs baseline subtraction, thresholding, temporal filtering, and real-time
+heatmap visualization.
+
 
 ## Prototype specifications
 
