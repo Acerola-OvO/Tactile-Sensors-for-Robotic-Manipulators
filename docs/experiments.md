@@ -330,8 +330,8 @@ exponential temporal smoothing.
 ### Procedure
 
 Three peas were randomly placed at different positions on the sensor surface.
-A flat loading plate was placed above them, and a calibrated load of
-approximately 1.5 N was applied horizontally to create distributed contact.
+A flat loading plate was placed above them, and a calibrated normal load of
+approximately 1.5 N was applied to create distributed contact.
 
 The physical pea locations were then compared with the activated regions in
 the real-time tactile heatmap.
