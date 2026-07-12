@@ -5,7 +5,7 @@
 <p align="center">
   <img src="assets/sensor_and_readout_board.jpg"
        alt="Finished tactile sensor prototype and readout board"
-       width="720">
+       width="500">
 </p>
 
 <p align="center">
@@ -125,7 +125,7 @@ A summarized manufacturing procedure is available in [docs/fabrication.md](docs/
 <p align="center">
   <img src="assets/assembled_sensor.jpg"
        alt="Assembled tactile sensor"
-       width="600">
+       width="300">
 </p>
 
 <p align="center">
@@ -135,7 +135,7 @@ A summarized manufacturing procedure is available in [docs/fabrication.md](docs/
 <p align="center">
   <img src="assets/pea_test_1.jpg"
        alt="Small-object contact experiment"
-       width="600">
+       width="300">
 </p>
 
 <p align="center">
@@ -145,7 +145,7 @@ A summarized manufacturing procedure is available in [docs/fabrication.md](docs/
 <p align="center">
   <img src="assets/pea_heatmap_1.png"
        alt="Real-time tactile heatmap"
-       width="600">
+       width="300">
 </p>
 
 <p align="center">
