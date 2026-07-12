@@ -1,4 +1,4 @@
-# Low-Cost 16×16 Flexible Tactile Sensor
+# Tactile Sensors for Robotic Manipulators
 
 **Hardware reproduction, sensor fabrication, and real-time tactile visualization**
 
