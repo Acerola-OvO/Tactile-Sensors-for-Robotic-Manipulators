@@ -85,43 +85,6 @@ The last two values are observations under the reported prototype setup, not sta
 └── LICENSES/                     # Upstream license and licensing notes
 ```
 
-## Quick start
-
-### 1. Upload the firmware
-
-Open `firmware/tactile_sensor_reader.ino` in the Arduino IDE, select the appropriate Arduino Nano board and serial port, and upload it.
-
-The inherited scan sequence has a possible column-alignment issue that should be checked on physical hardware. Read [firmware/README.md](firmware/README.md) before quantitative use.
-
-### 2. Install the visualization software
-
-```bash
-python -m venv .venv
-# Windows: .venv\Scripts\activate
-# Linux/macOS: source .venv/bin/activate
-pip install -r software/requirements.txt
-```
-
-### 3. Run with the sensor
-
-```bash
-python software/tactile_visualizer.py --port COM5
-# Linux example:
-python software/tactile_visualizer.py --port /dev/ttyUSB0
-```
-
-Keep the sensor unloaded during the initial baseline collection.
-
-### 4. Run without hardware
-
-```bash
-python software/tactile_visualizer.py --simulate
-```
-
-The simulation mode generates a moving synthetic contact pattern, making it possible to verify the software environment without the sensor.
-
-The simulation mode generates a moving synthetic contact pattern, making it possible to verify the software environment without the sensor.
-
 ## Fabrication
 
 The sensor was fabricated through the following six steps.
@@ -170,6 +133,45 @@ The sensor was fabricated through the following six steps.
 </table>
 
 A summarized manufacturing procedure is available in [docs/fabrication.md](docs/fabrication.md).
+
+## Quick start
+
+### 1. Upload the firmware
+
+Open `firmware/tactile_sensor_reader.ino` in the Arduino IDE, select the appropriate Arduino Nano board and serial port, and upload it.
+
+The inherited scan sequence has a possible column-alignment issue that should be checked on physical hardware. Read [firmware/README.md](firmware/README.md) before quantitative use.
+
+### 2. Install the visualization software
+
+```bash
+python -m venv .venv
+# Windows: .venv\Scripts\activate
+# Linux/macOS: source .venv/bin/activate
+pip install -r software/requirements.txt
+```
+
+### 3. Run with the sensor
+
+```bash
+python software/tactile_visualizer.py --port COM5
+# Linux example:
+python software/tactile_visualizer.py --port /dev/ttyUSB0
+```
+
+Keep the sensor unloaded during the initial baseline collection.
+
+### 4. Run without hardware
+
+```bash
+python software/tactile_visualizer.py --simulate
+```
+
+The simulation mode generates a moving synthetic contact pattern, making it possible to verify the software environment without the sensor.
+
+The simulation mode generates a moving synthetic contact pattern, making it possible to verify the software environment without the sensor.
+
+
 
 ## Experimental examples
 
