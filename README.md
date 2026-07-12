@@ -70,7 +70,7 @@ one sensor row, while the shift registers control the column-scanning sequence.
 The selected taxel voltage is sampled through the Arduino analog input.
 
 The complete schematic is available as a PDF:
-[Sensor reading board schematic](hardware/schematics/reading_board_circuit.pdf).
+[Sensor reading board schematic](hardware/schematics/sensor_reading_board_redrawn.pdf).
 
 ## Prototype specifications
 
