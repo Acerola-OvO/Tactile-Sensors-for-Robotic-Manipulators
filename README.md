@@ -53,19 +53,56 @@ heatmap visualization.
 
 ## Prototype specifications
 
-| Item | Prototype value |
-|---|---|
-| Sensor array | 16 × 16 taxels |
-| Sensing material | Velostat|
-| Target sensor size | approximately 50 mm × 50 mm |
-| Electrode pitch | approximately 3.125 mm |
-| Microcontroller | Arduino Nano |
-| Row selection | CD74HC4067 |
-| Column selection | 2 × SN74HC595 |
-| ADC transmission | 10-bit ADC reduced to 8-bit values |
-| Serial baud rate | 2,000,000 |
-| Reported experimental response range | approximately 7.07–47.88 kPa |
-| Reported effective spatial response | approximately 3.6 mm × 3.6 mm |
+<table align="center">
+  <tr>
+    <th align="center">Item</th>
+    <th align="center">Prototype value</th>
+  </tr>
+  <tr>
+    <td align="center">Sensor array</td>
+    <td align="center">16 × 16 taxels</td>
+  </tr>
+  <tr>
+    <td align="center">Sensing material</td>
+    <td align="center">Velostat</td>
+  </tr>
+  <tr>
+    <td align="center">Target sensor size</td>
+    <td align="center">approximately 50 mm × 50 mm</td>
+  </tr>
+  <tr>
+    <td align="center">Electrode pitch</td>
+    <td align="center">approximately 3.125 mm</td>
+  </tr>
+  <tr>
+    <td align="center">Microcontroller</td>
+    <td align="center">Arduino Nano</td>
+  </tr>
+  <tr>
+    <td align="center">Row selection</td>
+    <td align="center">CD74HC4067</td>
+  </tr>
+  <tr>
+    <td align="center">Column selection</td>
+    <td align="center">2 × SN74HC595</td>
+  </tr>
+  <tr>
+    <td align="center">ADC transmission</td>
+    <td align="center">10-bit ADC reduced to 8-bit values</td>
+  </tr>
+  <tr>
+    <td align="center">Serial baud rate</td>
+    <td align="center">2,000,000</td>
+  </tr>
+  <tr>
+    <td align="center">Reported experimental response range</td>
+    <td align="center">approximately 7.07–47.88 kPa</td>
+  </tr>
+  <tr>
+    <td align="center">Reported effective spatial response</td>
+    <td align="center">approximately 3.6 mm × 3.6 mm</td>
+  </tr>
+</table>
 
 The last two values are observations under the reported prototype setup, not standardized certification results. See [Experiments](docs/experiments.md) and [Limitations](docs/limitations.md).
 
