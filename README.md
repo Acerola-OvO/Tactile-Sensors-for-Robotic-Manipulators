@@ -230,6 +230,7 @@ The simulation mode generates a moving synthetic contact pattern, making it poss
 </table>
 
 The prototype demonstrated real-time contact-distribution visualization in preliminary bench-top experiments. The displayed heatmaps are normalized sensor responses and should not be interpreted as calibrated absolute pressure maps.
+Detailed experimental procedures, materials, results, and limitations are available in [docs/experiments.md](docs/experiments.md).
 
 ## Known limitations
 
