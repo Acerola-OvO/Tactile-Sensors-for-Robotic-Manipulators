@@ -177,15 +177,15 @@ A summarized manufacturing procedure is available in [docs/fabrication.md](docs/
   <tr>
     <td align="center">
       <img src="assets/assembled_sensor.jpg" alt="Assembled tactile sensor" width="250"><br>
-      <em>Figure 2. Assembled 16×16 tactile sensor.</em>
+      <em>Figure 3. Assembled 16×16 tactile sensor.</em>
     </td>
     <td align="center">
       <img src="assets/pea_test_1.jpg" alt="Small-object contact experiment" width="250"><br>
-      <em>Figure 3. Contact test with small objects.</em>
+      <em>Figure 4. Contact test with small objects.</em>
     </td>
     <td align="center">
       <img src="assets/pea_heatmap_1.png" alt="Real-time tactile heatmap" width="250"><br>
-      <em>Figure 4. Real-time tactile heatmap.</em>
+      <em>Figure 5. Real-time tactile heatmap.</em>
     </td>
   </tr>
 </table>
