@@ -50,7 +50,7 @@ flowchart LR
 | Item | Prototype value |
 |---|---|
 | Sensor array | 16 × 16 taxels |
-| Sensing material | Velostat / Linqstat |
+| Sensing material | Velostat|
 | Target sensor size | approximately 50 mm × 50 mm |
 | Electrode pitch | approximately 3.125 mm |
 | Microcontroller | Arduino Nano |
