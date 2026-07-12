@@ -114,6 +114,12 @@ python software/tactile_visualizer.py --simulate
 
 The simulation mode generates a moving synthetic contact pattern, making it possible to verify the software environment without the sensor.
 
+The simulation mode generates a moving synthetic contact pattern, making it possible to verify the software environment without the sensor.
+
+## Fabrication
+
+The sensor was fabricated through the following six steps.
+
 <table>
   <tr>
     <td align="center">
@@ -156,6 +162,10 @@ The simulation mode generates a moving synthetic contact pattern, making it poss
     </td>
   </tr>
 </table>
+
+A summarized manufacturing procedure is available in [docs/fabrication.md](docs/fabrication.md).
+
+## Experimental examples
 ## Experimental examples
 
 <table align="center">
